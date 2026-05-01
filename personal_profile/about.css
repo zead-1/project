@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+:root {
+    --bgcolor :#080e1c;
+    --textWhite : #fff;
+}
+
+.poss {
+    background: var(--bgcolor);
+    height: 100vh;
+    overflow: hidden;
+}
+.poss header nav {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+
+.poss header nav .logo {
+    color: var(--textWhite);
+    font-size: 35px;
+    font-weight: bold;
+
+}
+
+.poss header nav .logo span {
+    color: #ffdf00;
+}
+
+.poss header nav .links a {
+    color: var(--textWhite);
+    margin: 0 30px;
+    transition: 0.3s;
+}
+
+.poss header nav .links a:hover {
+    color: #23a3fe; 
+}
+
+.poss header nav .btn_mode {
+    color: var(--textWhite);
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.poss .container {
+    width: 90%;
+    margin: auto;
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.poss .container .div_text {
+    width: 50%;
+    z-index: 2;
+    margin-bottom: 120px;
+    
+}
+
+.poss .container .div_text h4 {
+    color: #888;
+    font-size: 22px;
+}
+.poss .container .div_text h1 {
+    color: #c1a807;
+    font-size: 60px;
+    margin: 15px 0 10px;
+}
+.poss .container .div_text h3 {
+    color: var(--textWhite);
+    line-height: 1.8;
+    margin: 20px 0 40px;
+}
+
+.poss .container .div_img {
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    width: 75%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.poss .container .div_img img {
+    width: 100%;
+    max-width: none;
+    position: relative;
+    bottom: 100px;
+    left: 650px;
+}
